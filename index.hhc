@@ -1,0 +1,234 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Animation"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="AnimationCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1AnimationCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceDisplayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceDisplayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceEndAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceEndAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceGoToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceGoToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseClickHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseClickHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOutHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseOutHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesActionBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ChoicesActionBase.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ChoicesGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="CommandLineGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1CommandLineGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="FrameAndAnimationKeyword"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1FrameAndAnimationKeyword.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="GameActionBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmARoom"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmARoom.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMainAPI"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMasterPanel"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMasterPanel.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ICallbacksFromGameAction"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1action_1_1ICallbacksFromGameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Image"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Image.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ImageCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageMouseClickHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ImageMouseClickHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Inventory"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Inventory.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItem"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryItem.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryItemCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1InventoryItemMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MainPanel"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1MainPanel.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="NullParentAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1NullParentAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1PlayAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationRepeatWhilstVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1PlayAnimationRepeatWhilstVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Point.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PointF"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1PointF.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEvent"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1event_1_1PropertyChangeEvent.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEventHandler"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1event_1_1PropertyChangeEventHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Rect"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Rect.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Room"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Room.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomBase.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObject"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomObjectCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1RoomObjectMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SayWithoutAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayWithoutAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Sentence.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetActiveAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveFrameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetActiveFrameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleXAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetBaseMiddleXAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleYAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetBaseMiddleYAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetDisplayNameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetHomeAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetHomeAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetInventoryVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetInventoryVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetTalkingAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationDelayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetTalkingAnimationDelayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SleepAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SleepAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="StringNumberCombo"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1StringNumberCombo.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SwapPropertyAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SwapPropertyAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SwitchToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SwitchToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Verb"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Verb.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1VerbMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbsGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1VerbsGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="WaitForFrameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WaitForFrameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="1"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Animation"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="AnimationCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1AnimationCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseClickHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseClickHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOutHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseOutHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ChoiceMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ChoicesGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="CommandLineGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1CommandLineGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="FrameAndAnimationKeyword"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1FrameAndAnimationKeyword.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="GameActionBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="NullParentAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1NullParentAction.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomBase.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1PlayAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationRepeatWhilstVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1PlayAnimationRepeatWhilstVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SayWithoutAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayWithoutAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetActiveAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveFrameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetActiveFrameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleXAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetBaseMiddleXAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleYAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetBaseMiddleYAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetDisplayNameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetHomeAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetHomeAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetInventoryVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetInventoryVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetTalkingAnimationAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationDelayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetTalkingAnimationDelayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SetVisibleAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetVisibleAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SleepAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SleepAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SwapPropertyAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SwapPropertyAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WaitForFrameAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WaitForFrameAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesActionBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ChoicesActionBase.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceDisplayAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceDisplayAction.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceEndAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceEndAction.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceGoToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1ChoiceGoToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SwitchToAction"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SwitchToAction.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmARoom"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmARoom.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMainAPI"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="MainPanel"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1MainPanel.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMasterPanel"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMasterPanel.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ICallbacksFromGameAction"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1action_1_1ICallbacksFromGameAction.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomBase"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomBase.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Image"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Image.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1ImageCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageMouseClickHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1ImageMouseClickHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Inventory"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Inventory.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItem"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryItem.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1InventoryItemCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1InventoryItemMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Point.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PointF"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1PointF.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEvent"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1event_1_1PropertyChangeEvent.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEventHandler"><param name="Local" value="interfacecom_1_1github_1_1a2g_1_1core_1_1event_1_1PropertyChangeEventHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Rect"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Rect.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Room"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Room.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObject"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectCollection"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1RoomObjectCollection.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1RoomObjectMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Sentence.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="StringNumberCombo"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1StringNumberCombo.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Verb"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1Verb.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbMouseOverHandler"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1mouse_1_1VerbMouseOverHandler.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbsGui"><param name="Local" value="classcom_1_1github_1_1a2g_1_1core_1_1VerbsGui.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildScriptUsedToCreateThisHelp"><param name="Local" value="namespaceBuildScriptUsedToCreateThisHelp.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="namespacecom.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com::github"><param name="Local" value="namespacecom_1_1github.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com::github::a2g"><param name="Local" value="namespacecom_1_1github_1_1a2g.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com.github.a2g.core"><param name="Local" value="namespacecom_1_1github_1_1a2g_1_1core.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com.github.a2g.core.action"><param name="Local" value="namespacecom_1_1github_1_1a2g_1_1core_1_1action.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com.github.a2g.core.event"><param name="Local" value="namespacecom_1_1github_1_1a2g_1_1core_1_1event.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="com.github.a2g.core.mouse"><param name="Local" value="namespacecom_1_1github_1_1a2g_1_1core_1_1mouse.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="DoxygenSettingsUsedToCreateThisHelp"><param name="Local" value="namespaceDoxygenSettingsUsedToCreateThisHelp.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Package Functions"><param name="Local" value="namespacemembers.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Animation.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="AnimationCollection.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildFromNonCheckedInSource.bat"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildScriptUsedToCreateThisHelp.py"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceDisplayAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceEndAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceGoToAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseClickHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOutHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoiceMouseOverHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesActionBase.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ChoicesGui.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ColorEnum.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="CommandLineGui.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="DoxygenSettingsUsedToCreateThisHelp.py"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="FrameAndAnimationKeyword.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="GameActionBase.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmARoom.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMainAPI.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="IAmTheMasterPanel.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ICallbacksFromGameAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Image.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageCollection.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ImageMouseClickHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Inventory.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryGui.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItem.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemCollection.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="InventoryItemMouseOverHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MainPanel.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="NullParentAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayAnimationRepeatWhilstVisibleAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Point.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PointF.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEvent.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangeEventHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Rect.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Room.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomBase.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomGui.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObject.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectCollection.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="RoomObjectMouseOverHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SayAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SayWithoutAnimationAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveAnimationAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetActiveFrameAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleXAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetBaseMiddleYAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetDisplayNameAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetHomeAnimationAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetInventoryVisibleAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetTalkingAnimationDelayAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SetVisibleAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SleepAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="StringNumberCombo.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SwapPropertyAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SwitchToAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Verb.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbMouseOverHandler.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VerbsGui.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="WaitForFrameAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="WalkToAction.java"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>
