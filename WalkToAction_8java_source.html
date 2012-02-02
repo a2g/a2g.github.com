@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Adventure2Game: WalkToAction.java Source File</title>
+<title>a2g: WalkToAction.java Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
   
   
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Adventure2Game
+   <div id="projectname">a2g
    &#160;<span id="projectnumber">2.0</span>
    </div>
    
@@ -38,6 +38,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -60,25 +61,25 @@
 <a name="l00005"></a>00005 <span class="keyword">package </span>com.github.a2g.core.action;
 <a name="l00006"></a>00006 
 <a name="l00007"></a>00007 
-<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.GameActionBase;
+<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.action.BaseAction;
 <a name="l00009"></a>00009 
-<a name="l00010"></a>00010 <span class="keyword">import</span> com.github.a2g.core.Animation;
-<a name="l00011"></a>00011 <span class="keyword">import</span> com.github.a2g.core.RoomObject;
+<a name="l00010"></a>00010 <span class="keyword">import</span> com.github.a2g.core.model.room.Animation;
+<a name="l00011"></a>00011 <span class="keyword">import</span> com.github.a2g.core.model.room.RoomObject;
 <a name="l00012"></a>00012 
 <a name="l00013"></a>00013 
-<a name="l00014"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html">00014</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html">WalkToAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> {
-<a name="l00015"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">00015</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html">RoomObject</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>;
+<a name="l00014"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html">00014</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html">WalkToAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> {
+<a name="l00015"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">00015</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html">RoomObject</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>;
 <a name="l00016"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">00016</a>     <span class="keyword">private</span> <span class="keywordtype">double</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a>;
 <a name="l00017"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">00017</a>     <span class="keyword">private</span> <span class="keywordtype">double</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a>;
 <a name="l00018"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a8debc0440a4fac06b03193fd90672684">00018</a>     <span class="keyword">private</span> <span class="keywordtype">double</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a8debc0440a4fac06b03193fd90672684">endX</a>;
 <a name="l00019"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7d56fe22768597c109eda9aafa6b5919">00019</a>     <span class="keyword">private</span> <span class="keywordtype">double</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7d56fe22768597c109eda9aafa6b5919">endY</a>;
-<a name="l00020"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">00020</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html">Animation</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>;
+<a name="l00020"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">00020</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html">Animation</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>;
 <a name="l00021"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7b770d6402e28c09c615bc1754904fe5">00021</a>     <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7b770d6402e28c09c615bc1754904fe5">framesInAnim</a>;
 <a name="l00022"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a36b39dd50289d53839bab953fbe1fff7">00022</a>     <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a36b39dd50289d53839bab953fbe1fff7">framesPlayedDuringWalk</a>;
 <a name="l00023"></a>00023 
-<a name="l00024"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a90677744e08523165eb6239c1831baf4">00024</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a90677744e08523165eb6239c1831baf4">WalkToAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#ad236698a7c18afd25b018c79aac94ee7">parent</a>, <span class="keywordtype">int</span> objId, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y) {
-<a name="l00025"></a>00025         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
-<a name="l00026"></a>00026         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a> = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(objId);
+<a name="l00024"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#afb3ac90f8d0b7fc3df5b947ab5eb3dac">00024</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#afb3ac90f8d0b7fc3df5b947ab5eb3dac">WalkToAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#abb452b419b4cca4d18196525256b1160">parent</a>, <span class="keywordtype">int</span> objId, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y) {
+<a name="l00025"></a>00025         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
+<a name="l00026"></a>00026         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a> = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(objId);
 <a name="l00027"></a>00027         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a8debc0440a4fac06b03193fd90672684">endX</a> = x;
 <a name="l00028"></a>00028         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7d56fe22768597c109eda9aafa6b5919">endY</a> = y;
 <a name="l00029"></a>00029         <span class="comment">// this.delay = delay;</span>
@@ -90,22 +91,22 @@
 <a name="l00035"></a>00035         <span class="keywordtype">double</span> x = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a> + progress * (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a8debc0440a4fac06b03193fd90672684">endX</a> - this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a>);
 <a name="l00036"></a>00036         <span class="keywordtype">double</span> y = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a> + progress * (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7d56fe22768597c109eda9aafa6b5919">endY</a> - this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a>);
 <a name="l00037"></a>00037 
-<a name="l00038"></a>00038         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a0af79245d6813bd6fa4bcef85a178b95">setBaseMiddleX</a>(x);
-<a name="l00039"></a>00039         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#ab9bea939556b52dfa90420359c898999">setBaseMiddleY</a>(y);
+<a name="l00038"></a>00038         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a0af79245d6813bd6fa4bcef85a178b95">setBaseMiddleX</a>(x);
+<a name="l00039"></a>00039         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#ab9bea939556b52dfa90420359c898999">setBaseMiddleY</a>(y);
 <a name="l00040"></a>00040         <span class="keywordtype">int</span> framesPlayedSoFar = (int) (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a36b39dd50289d53839bab953fbe1fff7">framesPlayedDuringWalk</a> * progress);
 <a name="l00041"></a>00041         <span class="keywordtype">int</span> i = (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7b770d6402e28c09c615bc1754904fe5">framesInAnim</a> != 0)
 <a name="l00042"></a>00042                 ? framesPlayedSoFar % this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7b770d6402e28c09c615bc1754904fe5">framesInAnim</a>
 <a name="l00043"></a>00043                 : 0;
 <a name="l00044"></a>00044 
-<a name="l00045"></a>00045         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>(i);
+<a name="l00045"></a>00045         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>(i);
 <a name="l00046"></a>00046     }
 <a name="l00047"></a>00047 
 <a name="l00048"></a>00048     @Override
 <a name="l00049"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7074c6c3669692cec7f172ba1d4a4d2a">00049</a>     <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7074c6c3669692cec7f172ba1d4a4d2a">runGameAction</a>() {
 <a name="l00050"></a>00050 
 <a name="l00051"></a>00051         <span class="comment">// distance and time calulations</span>
-<a name="l00052"></a>00052         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a153ced4f0cdd489fff85febe69943749">getBaseMiddleX</a>();
-<a name="l00053"></a>00053         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a090409c78c8f3ddacf339abf0d2a690f">getBaseMiddleY</a>();
+<a name="l00052"></a>00052         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a153ced4f0cdd489fff85febe69943749">getBaseMiddleX</a>();
+<a name="l00053"></a>00053         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a090409c78c8f3ddacf339abf0d2a690f">getBaseMiddleY</a>();
 <a name="l00054"></a>00054         <span class="keywordtype">double</span> diffX = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a> - this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a8debc0440a4fac06b03193fd90672684">endX</a>;
 <a name="l00055"></a>00055         <span class="keywordtype">double</span> diffY = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a> - this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7d56fe22768597c109eda9aafa6b5919">endY</a>;
 <a name="l00056"></a>00056         <span class="keywordtype">double</span> diffXSquared = diffX * diffX;
@@ -116,29 +117,29 @@
 <a name="l00061"></a>00061 
 <a name="l00062"></a>00062         <span class="comment">// anim</span>
 <a name="l00063"></a>00063         String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> = <span class="stringliteral">&quot;&quot;</span>;
-<a name="l00064"></a>00064         <span class="keywordtype">int</span> width = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html#a8da93d1f7d38210d10f7931004ffc3bf">getRoomGui</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomGui.html#a67a0997183f24da19b776d96c1052998">getWidth</a>();
-<a name="l00065"></a>00065         <span class="keywordtype">int</span> height = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html#a8da93d1f7d38210d10f7931004ffc3bf">getRoomGui</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomGui.html#a07efb2a4e9a982688c8bb3c3f21d1092">getHeight</a>();
+<a name="l00064"></a>00064         <span class="keywordtype">int</span> width = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html#aff9e9454751ae4686c9e444eb59e8568">getRoomGui</a>().getWidth();
+<a name="l00065"></a>00065         <span class="keywordtype">int</span> height = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html#aff9e9454751ae4686c9e444eb59e8568">getRoomGui</a>().getHeight();
 <a name="l00066"></a>00066 
 <a name="l00067"></a>00067         <span class="keywordflow">if</span> ((diffX * width) * (diffX * width)
 <a name="l00068"></a>00068                 &gt; (diffY * height) * (diffY * height)) {
 <a name="l00069"></a>00069             <span class="keywordflow">if</span> (this.endX &lt; this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a3ef84b8edb30fcd53582fcaa36fe6503">startX</a>) {
-<a name="l00070"></a>00070                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
-<a name="l00071"></a>00071                         com.github.a2g.core.RoomBase.Special.West);
+<a name="l00070"></a>00070                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
+<a name="l00071"></a>00071                         com.github.a2g.core.model.authoredroom.RoomBase.Special.West);
 <a name="l00072"></a>00072             } <span class="keywordflow">else</span> {
-<a name="l00073"></a>00073                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
-<a name="l00074"></a>00074                         com.github.a2g.core.RoomBase.Special.East);
+<a name="l00073"></a>00073                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
+<a name="l00074"></a>00074                         com.github.a2g.core.model.authoredroom.RoomBase.Special.East);
 <a name="l00075"></a>00075             }
 <a name="l00076"></a>00076         } <span class="keywordflow">else</span> {
 <a name="l00077"></a>00077             <span class="keywordflow">if</span> (this.endY &lt; this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a5171558b287a26436eb99031094d4a26">startY</a>) {
-<a name="l00078"></a>00078                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
-<a name="l00079"></a>00079                         com.github.a2g.core.RoomBase.Special.North);
+<a name="l00078"></a>00078                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
+<a name="l00079"></a>00079                         com.github.a2g.core.model.authoredroom.RoomBase.Special.North);
 <a name="l00080"></a>00080             } <span class="keywordflow">else</span> {
-<a name="l00081"></a>00081                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
-<a name="l00082"></a>00082                         com.github.a2g.core.RoomBase.Special.South);
+<a name="l00081"></a>00081                 anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
+<a name="l00082"></a>00082                         com.github.a2g.core.model.authoredroom.RoomBase.Special.South);
 <a name="l00083"></a>00083             }
 <a name="l00084"></a>00084         }
-<a name="l00085"></a>00085         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(anim);
-<a name="l00086"></a>00086         this.anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#ada8caa69b793b512eb1f6b31736871dd">animations</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1AnimationCollection.html#a80e6e3fdcfa6bec603667fe09180b41f">at</a>(anim);
+<a name="l00085"></a>00085         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(anim);
+<a name="l00086"></a>00086         this.anim = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#ada8caa69b793b512eb1f6b31736871dd">animations</a>().at(anim);
 <a name="l00087"></a>00087         <span class="keywordflow">if</span> (this.anim != null) {
 <a name="l00088"></a>00088             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a7b770d6402e28c09c615bc1754904fe5">framesInAnim</a> = this.anim.getLength();
 <a name="l00089"></a>00089         } <span class="keywordflow">else</span> {
@@ -151,11 +152,11 @@
 <a name="l00096"></a>00096     @Override <span class="comment">// method in animation</span>
 <a name="l00097"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a892661032e76ee8befeb6aa160ef7ceb">00097</a>     <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a892661032e76ee8befeb6aa160ef7ceb">onCompleteGameAction</a>() {
 <a name="l00098"></a>00098 
-<a name="l00099"></a>00099         String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
-<a name="l00100"></a>00100                 com.github.a2g.core.RoomBase.Special.South);
+<a name="l00099"></a>00099         String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> = this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a46b3842521864d62e0ed663dabe6ced7">getSpecialAnimation</a>(
+<a name="l00100"></a>00100                 com.github.a2g.core.model.authoredroom.RoomBase.Special.South);
 <a name="l00101"></a>00101 
-<a name="l00102"></a>00102         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(anim);
-<a name="l00103"></a>00103         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>(0);
+<a name="l00102"></a>00102         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(anim);
+<a name="l00103"></a>00103         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1WalkToAction.html#a944be0c526896df9f4678f70e3205b16">obj</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>(0);
 <a name="l00104"></a>00104     }
 <a name="l00105"></a>00105 
 <a name="l00106"></a>00106     @Override
@@ -170,7 +171,7 @@
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 21 2011 13:08:25 for Adventure2Game by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 22:38:44 for a2g by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5.1
 </small></address>

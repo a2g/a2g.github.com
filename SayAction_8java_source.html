@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Adventure2Game: SayAction.java Source File</title>
+<title>a2g: SayAction.java Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
   
   
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Adventure2Game
+   <div id="projectname">a2g
    &#160;<span id="projectnumber">2.0</span>
    </div>
    
@@ -38,6 +38,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -60,35 +61,35 @@
 <a name="l00005"></a>00005 <span class="keyword">package </span>com.github.a2g.core.action;
 <a name="l00006"></a>00006 
 <a name="l00007"></a>00007 
-<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.GameActionBase;
+<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.action.BaseAction;
 <a name="l00009"></a>00009 
-<a name="l00010"></a>00010 <span class="keyword">import</span> com.github.a2g.core.Animation;
-<a name="l00011"></a>00011 <span class="keyword">import</span> com.github.a2g.core.ColorEnum;
-<a name="l00012"></a>00012 <span class="keyword">import</span> com.github.a2g.core.IAmTheMainAPI;
-<a name="l00013"></a>00013 <span class="keyword">import</span> com.github.a2g.core.RoomObject;
+<a name="l00010"></a>00010 <span class="keyword">import</span> com.github.a2g.core.model.authoredroom.ColorEnum;
+<a name="l00011"></a>00011 <span class="keyword">import</span> com.github.a2g.core.model.authoredroom.IAmTheMainAPI;
+<a name="l00012"></a>00012 <span class="keyword">import</span> com.github.a2g.core.model.room.Animation;
+<a name="l00013"></a>00013 <span class="keyword">import</span> com.github.a2g.core.model.room.RoomObject;
 <a name="l00014"></a>00014 <span class="keyword">import</span> com.google.gwt.user.client.DOM;
 <a name="l00015"></a>00015 <span class="keyword">import</span> com.google.gwt.user.client.ui.Label;
 <a name="l00016"></a>00016 <span class="keyword">import</span> com.google.gwt.user.client.ui.PopupPanel;
 <a name="l00017"></a>00017 
 <a name="l00018"></a>00018 
-<a name="l00019"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html">00019</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html">SayAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> {
+<a name="l00019"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html">00019</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html">SayAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> {
 <a name="l00020"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">00020</a>     <span class="keyword">private</span> String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">speech</a>;
 <a name="l00021"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">00021</a>     <span class="keyword">private</span> PopupPanel <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a>;
 <a name="l00022"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#af4742bf364f2e533a0b06370d2505623">00022</a>     <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>;
-<a name="l00023"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">00023</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html">Animation</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>;
-<a name="l00024"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ab6211ea4e96b170e2c785371406f1452">00024</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html">RoomObject</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ab6211ea4e96b170e2c785371406f1452">object</a>;
+<a name="l00023"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">00023</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html">Animation</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>;
+<a name="l00024"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ab6211ea4e96b170e2c785371406f1452">00024</a>     <span class="keyword">private</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html">RoomObject</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ab6211ea4e96b170e2c785371406f1452">object</a>;
 <a name="l00025"></a>00025 
-<a name="l00026"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a41bb0cf72c57a1420b1d8ab7234fd15e">00026</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a41bb0cf72c57a1420b1d8ab7234fd15e">SayAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#ad236698a7c18afd25b018c79aac94ee7">parent</a>, <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>, String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">speech</a>) {
-<a name="l00027"></a>00027         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
+<a name="l00026"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#aec7d6302462f1707ad8c2334a940f0d3">00026</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#aec7d6302462f1707ad8c2334a940f0d3">SayAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#abb452b419b4cca4d18196525256b1160">parent</a>, <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>, String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">speech</a>) {
+<a name="l00027"></a>00027         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
 <a name="l00028"></a>00028         this.objId = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>;
 <a name="l00029"></a>00029         this.speech = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">speech</a>;
 <a name="l00030"></a>00030         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a> = null;
 <a name="l00031"></a>00031 
-<a name="l00032"></a>00032         <a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html">IAmTheMainAPI</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a6609c6bdaa447942c95e96662ecb154a">api</a> = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>();
-<a name="l00033"></a>00033         this.<span class="keywordtype">object</span> = api.<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(this.objId);
+<a name="l00032"></a>00032         <a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html">IAmTheMainAPI</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a6609c6bdaa447942c95e96662ecb154a">api</a> = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>();
+<a name="l00033"></a>00033         this.<span class="keywordtype">object</span> = api.<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(this.objId);
 <a name="l00034"></a>00034 
 <a name="l00035"></a>00035         <span class="keywordflow">if</span> (<span class="keywordtype">object</span> != null) {
-<a name="l00036"></a>00036             String talkingAnimKeyword = <span class="keywordtype">object</span>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#ab6b64d3838c4ddf7425bad3ac3473d45">getTalkingAnimation</a>();
+<a name="l00036"></a>00036             String talkingAnimKeyword = <span class="keywordtype">object</span>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#ab6b64d3838c4ddf7425bad3ac3473d45">getTalkingAnimation</a>();
 <a name="l00037"></a>00037 
 <a name="l00038"></a>00038             <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> = <span class="keywordtype">object</span>.animations().at(talkingAnimKeyword);
 <a name="l00039"></a>00039         }
@@ -105,7 +106,7 @@
 <a name="l00050"></a>00050         Label label = <span class="keyword">new</span> Label(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a33d717ee83d0b8b1e93e5240666594fa">speech</a>);
 <a name="l00051"></a>00051         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a>.setWidget(label);
 <a name="l00052"></a>00052         
-<a name="l00053"></a>00053         <a class="code" href="namespacecom_1_1github_1_1a2g_1_1core.html#aa94fd4794531adf9d34268df7d7087bf">ColorEnum</a> color = <a class="code" href="namespacecom_1_1github_1_1a2g_1_1core.html#aa94fd4794531adf9d34268df7d7087bf">ColorEnum</a>.Blue;
+<a name="l00053"></a>00053         ColorEnum color = ColorEnum.Blue;
 <a name="l00054"></a>00054         <span class="keywordflow">if</span>(<span class="keywordtype">object</span>!=null &amp;&amp; <span class="keywordtype">object</span>.getTalkingColor()!=null)
 <a name="l00055"></a>00055         {
 <a name="l00056"></a>00056                 color = <span class="keywordtype">object</span>.getTalkingColor();
@@ -114,8 +115,8 @@
 <a name="l00059"></a>00059         DOM.setStyleAttribute(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a>.getElement(), <span class="stringliteral">&quot;borderColor&quot;</span>, color.toString());
 <a name="l00060"></a>00060         
 <a name="l00061"></a>00061         <span class="keywordflow">if</span> (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> != null) {
-<a name="l00062"></a>00062             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a1e385bbf8bbf0043d7f76f7118986ce2">getKeyword</a>());
-<a name="l00063"></a>00063             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a3b52d68056934f14e82f888bc3936f2a">setVisible</a>(<span class="keyword">true</span>);
+<a name="l00062"></a>00062             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a1e385bbf8bbf0043d7f76f7118986ce2">getKeyword</a>());
+<a name="l00063"></a>00063             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a3b52d68056934f14e82f888bc3936f2a">setVisible</a>(<span class="keyword">true</span>);
 <a name="l00064"></a>00064         }
 <a name="l00065"></a>00065 
 <a name="l00066"></a>00066         this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a>.setPopupPosition(20, 20);
@@ -127,17 +128,17 @@
 <a name="l00072"></a>00072     @Override
 <a name="l00073"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a2cd2b43afaf67a9cb10da66dc2774f72">00073</a>     <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a2cd2b43afaf67a9cb10da66dc2774f72">onUpdateGameAction</a>(<span class="keywordtype">double</span> progress) {
 <a name="l00074"></a>00074         <span class="keywordflow">if</span> (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> != null) {
-<a name="l00075"></a>00075             <span class="keywordtype">double</span> frame = progress * this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#aab0d4bbd0884d04dbe281cc2b9d21206">getLength</a>();
+<a name="l00075"></a>00075             <span class="keywordtype">double</span> frame = progress * this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#aab0d4bbd0884d04dbe281cc2b9d21206">getLength</a>();
 <a name="l00076"></a>00076 
-<a name="l00077"></a>00077             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>((<span class="keywordtype">int</span>) frame);
+<a name="l00077"></a>00077             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#aa3b33517659949440fe35fbf109704bb">setCurrentFrame</a>((<span class="keywordtype">int</span>) frame);
 <a name="l00078"></a>00078         }
 <a name="l00079"></a>00079     }
 <a name="l00080"></a>00080 
 <a name="l00081"></a>00081     @Override
 <a name="l00082"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a892661032e76ee8befeb6aa160ef7ceb">00082</a>     <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a892661032e76ee8befeb6aa160ef7ceb">onCompleteGameAction</a>() {
 <a name="l00083"></a>00083         <span class="keywordflow">if</span> (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a> != null) {
-<a name="l00084"></a>00084             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(
-<a name="l00085"></a>00085                     this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a6d4e8d41537ef454d50f93c486f19998">getHomeAnimation</a>());
+<a name="l00084"></a>00084             this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a2f87baf766dc8e93a5a40179d590668b">setCurrentAnimation</a>(
+<a name="l00085"></a>00085                     this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#a6f1b952926d36dbafbaba90c743ce09f">anim</a>.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1Animation.html#a07bc30d4959a80424bba7da3eaf3b908">getObject</a>().<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a6d4e8d41537ef454d50f93c486f19998">getHomeAnimation</a>());
 <a name="l00086"></a>00086         }
 <a name="l00087"></a>00087 
 <a name="l00088"></a>00088         <span class="keywordflow">if</span> (this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SayAction.html#ad9726a29b1e12c4f575095edcade357e">popup</a> != null) {
@@ -157,7 +158,7 @@
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 21 2011 13:08:25 for Adventure2Game by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 22:38:44 for a2g by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5.1
 </small></address>

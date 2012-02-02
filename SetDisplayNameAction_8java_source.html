@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Adventure2Game: SetDisplayNameAction.java Source File</title>
+<title>a2g: SetDisplayNameAction.java Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
   
   
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Adventure2Game
+   <div id="projectname">a2g
    &#160;<span id="projectnumber">2.0</span>
    </div>
    
@@ -38,6 +38,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -60,15 +61,15 @@
 <a name="l00005"></a>00005 <span class="keyword">package </span>com.github.a2g.core.action;
 <a name="l00006"></a>00006 
 <a name="l00007"></a>00007 
-<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.GameActionBase;
+<a name="l00008"></a>00008 <span class="keyword">import</span> com.github.a2g.core.action.BaseAction;
 <a name="l00009"></a>00009 
 <a name="l00010"></a>00010 
-<a name="l00011"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html">00011</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html">SetDisplayNameAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> {
+<a name="l00011"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html">00011</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html">SetDisplayNameAction</a> <span class="keyword">extends</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> {
 <a name="l00012"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">00012</a>     <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>;
 <a name="l00013"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">00013</a>     <span class="keyword">private</span> String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>;
 <a name="l00014"></a>00014 
-<a name="l00015"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a5d75992ef4a127da571d1018f5e00a93">00015</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a5d75992ef4a127da571d1018f5e00a93">SetDisplayNameAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html">GameActionBase</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#ad236698a7c18afd25b018c79aac94ee7">parent</a>, <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>, String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>) {
-<a name="l00016"></a>00016         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
+<a name="l00015"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a3c48b2e2cd21ea0e6fcf7ba5fb7f0396">00015</a>     <span class="keyword">public</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a3c48b2e2cd21ea0e6fcf7ba5fb7f0396">SetDisplayNameAction</a>(<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html">BaseAction</a> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#abb452b419b4cca4d18196525256b1160">parent</a>, <span class="keywordtype">int</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>, String <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>) {
+<a name="l00016"></a>00016         super(parent, parent.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>());
 <a name="l00017"></a>00017         this.displayName = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>;
 <a name="l00018"></a>00018         this.objId = <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>;
 <a name="l00019"></a>00019     }
@@ -83,7 +84,7 @@
 <a name="l00028"></a>00028 
 <a name="l00029"></a>00029     @Override
 <a name="l00030"></a><a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a892661032e76ee8befeb6aa160ef7ceb">00030</a>     <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a892661032e76ee8befeb6aa160ef7ceb">onCompleteGameAction</a>() {
-<a name="l00031"></a>00031         <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1GameActionBase.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>).<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1RoomObject.html#a970e6d39591ff152570060fe269a45e5">setDisplayName</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>);
+<a name="l00031"></a>00031         <a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1BaseAction.html#a0261303677149193d09fc2cc9b7a9597">getApi</a>().<a class="code" href="interfacecom_1_1github_1_1a2g_1_1core_1_1model_1_1authoredroom_1_1IAmTheMainAPI.html#af611d6eaf3fa0ba3f0184e122d5a1733">getObject</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#af4742bf364f2e533a0b06370d2505623">objId</a>).<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1model_1_1room_1_1RoomObject.html#a970e6d39591ff152570060fe269a45e5">setDisplayName</a>(this.<a class="code" href="classcom_1_1github_1_1a2g_1_1core_1_1action_1_1SetDisplayNameAction.html#a4e21bc82f88e857abbe15e756db5c957">displayName</a>);
 <a name="l00032"></a>00032     }
 <a name="l00033"></a>00033 
 <a name="l00034"></a>00034     @Override
@@ -98,7 +99,7 @@
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 21 2011 13:08:25 for Adventure2Game by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 22:38:44 for a2g by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5.1
 </small></address>
