@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Boost::unit tests for memory leaks"
+title: "Boost tests for memory leaks"
 description: ""
 category: 
 tags: [leaks,Qt,unittest]
