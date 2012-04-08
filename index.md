@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Software Engineering
-tagline: it's what I do
+tagline: 44 years since its origin
 ---
 {% include JB/setup %}
 
