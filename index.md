@@ -1,11 +1,11 @@
 ---
 layout: page
 title:  Software Engineering
-tagline: it's my job
+tagline: it's what I do
 ---
 {% include JB/setup %}
 
-Here's a sample "posts list".
+All posts so far:
 
 <ul class="posts">
   {% for post in site.posts %}
