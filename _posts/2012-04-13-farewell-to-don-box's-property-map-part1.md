@@ -7,8 +7,6 @@ tags: [COM, unittest, TDD]
 ---
 {% include JB/setup %}
 
-# Farewell to Don Box's XML Property Bag (Part 1) #
-
 A long, long time ago, I instructed one of my team mates to use [Don Box's XmlPropertyBag implementation](http://www.codeproject.com/Articles/3286/XML-Property-Bag-Implementation). The case was that we were maintaining an ActiveX control, and it had many properties in the [PROPERTY_MAP](http://msdn.microsoft.com/en-us/library/y5s333c2(v=vs.71).aspx) that we wanted to remove. It looked like someone had wanted a very large amount of state to be persisted to the Office document when you saved the control - which is fair - but the way they did it was to add many property methods, and put these properties in the property map.
 This was a problem when inserted in to various html designers that took a snap shot of all the properties in the property map, and embedded it in to the html.
 (The original developer should have probably used an extra stream, not the properties stream). 
