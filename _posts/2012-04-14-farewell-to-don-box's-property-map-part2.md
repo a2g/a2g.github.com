@@ -4,6 +4,8 @@ title: "Farewell to Don Box's XML Property Bag (Part 2)"
 description: ""
 category: 
 tags: [COM, unittest, TDD]
+---
+{% include JB/setup %}
 
 # Farewell to Don Box's XML Property Bag (Part 2) #
 Six years past, and the XmlPropertyBag code worked admirably. There had only been a few bugs found in it soon after we put it in to production. But after that, they all went away. Until now.
