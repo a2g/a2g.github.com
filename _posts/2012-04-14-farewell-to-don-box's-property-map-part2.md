@@ -7,13 +7,7 @@ tags: [COM, unittest, TDD]
 ---
 {% include JB/setup %}
 
-Six years passed, and the XmlPropertyBag code worked admirably. There had only been a few bugs found in it soon after we put it in to production. But after that, they all went away. Until now.
-
-About six months ago we heard from a customer that had embedded much 3D content in to Word documents using our ActiveX control, but when they upgraded to our latest version, they couldn't see it anymore.
-
-Around about the same time, our whole company's code was [scanned by BlackDuck](http://en.wikipedia.org/wiki/Black_Duck_Software) to determine which open source licenses we were using: to make sure we were legal. The XmlPropertyBag code posed a problem because although [Jörgen Sigvardsson's code](http://www.codeproject.com/Articles/3286/XML-Property-Bag-Implementation) came with an acceptable license, his code was in some way based on Don Box's code when he [was working at Developmentor](http://www.sellsbrothers.com/links/dbox/xmlpropbag.zip). And this part was a cause of concern in our legal department, we didn't really have persmission from DonBox to use this code.
-
-The legal problem moved slowly, but the customer problem was quickly raised in to a top priority error, and I was made to investigate it. The problem seemed to be caused by some old documents that had not saved out the full list of properties. Our lead QA person tried exhaustively to reproduce it - with the full suite of previously released products at her disposal - but had been unable to reproduce it. My guess is that somehow one of the properties threw an exception, or returned non zero, when it was being read, and ATL stopped writing the list midway. But regardless of that, we had documents now that were failing to load and I needed to fix it.
+Recapping from Part 1, a customer had discovered that several documents that were saved out containing our 3D technology had been corrupted. And the cause seemed to be an open source piece of code called the Xml Property Bag, that Don Box had written many years earlier....
 
 Luckily, the critical mass of data was still in the document, but there needed to be some fixes applied to get these to be loaded properly. The way to fix it was to change some code hear where we integrated the XmlPropertyBag code. I stepped through it and found it a bit hard to follow. The code used many Xml DOM methods, but there were no strings in the debugger where you could see the state of the XML - so I added a fair bit of debugging code to monitor what was going on. It was about at this time I noticed two things:
 
