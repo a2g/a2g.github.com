@@ -20,7 +20,7 @@ But there are also many paths that would roll the functionality in to one: the o
 My general thinking on this at present is to keep things simple. State adds complexity, and adding combinations of state has a multiplicative effect with regard to complexity. If you can split that class in half and hide one lot of state from another, then you limit the combination of state, and limit the complexity. This is disregarding getters and setters of course, if you use those to expose your state then you kind of subvert that limitation.
 
 Here is a great read regarding the causes of complexity, in a program:
-http://web.mac.com/ben_moseley/frp/paper-v1_01.pdf
+(http://web.mac.com/ben_moseley/frp/paper-v1_01.pdf)
 
 
  
